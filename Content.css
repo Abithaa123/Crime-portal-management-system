@@ -1,0 +1,130 @@
+
+
+
+body{
+  background-color:black;
+  background-image:url(/storage/emulated/0/DCIM/SAVE_20200330_240916.jpg);
+  background-size:cover;
+  box-sizing:border-box;
+ 
+}
+.ss{
+  display:block;
+  border-radius:50px;
+  background-color:white;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  padding-top:50px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:50px;
+  
+}
+#ff{
+  display:block;
+  border-radius:50px;
+  background-color:magenta;
+  font-size:50px;
+  
+}
+.xx{
+  display:block;
+  border-radius:50px;
+  background-color:lightyellow;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:20px;
+  padding-top:50px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:50px;
+  font-size:30px;
+  
+}
+  #slider{
+    overflow:hidden;
+  }
+  #slider figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation:5s slider infinite;
+  }
+  #slider figure img{
+    width:20%;
+    float:left;
+    }
+ @keyframes slider{
+    0%{
+      left:0%;
+    }
+    20%{
+      left:0%;
+    }
+    25%{
+      left:-100%;
+    }
+    45%{
+      left:-100%;
+    }
+    50%{
+      left:-200%;
+    }
+    70%{
+      left:-200%;
+    }
+    75%{
+      left:-300%;
+    }
+    95%{
+      left:-300%;
+      
+    }
+    100%{
+      left:-400%;
+    }
+ }
+ 
+  .menu-bar{
+    
+    background:rgb(0,100,0);
+    text-align:center;
+  }
+  .menu-bar ul{
+    display: inline-flex;
+    list-style:none;
+    color:#fff;
+ }
+ .menu-bar ul li{
+   width:120px;
+   padding:15px;
+   margin:15px;
+ }
+ .menu-bar ul li a{
+   text-decoration:none;
+   color:#fff;
+}
+.active,.menu-bar ul li:hover{
+  background:#2bab0d;
+  border-radius:3px;
+}
+.sub-menu1{
+  display:none;
+}
+
+  .menu-bar ul li:hover.sub-menu1 ul{
+    display: block;
+    margin:10px;
+  }
+   .menu-bar ul li.sub-menu1 ul li{
+     width:150px;
+     padding:10px;
+     border-bottom:1px dotted #fff;
+     background:transparent;
+     border-radius:0;
+     text-align:left;
+}
