@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+ </head> 
+ <body> 
+  <div class="aa"> 
+   <h1> 
+    <center> 
+     <font color="white" size="50px"> 
+      <div id="bb">
+        Register Here 
+      </div></font> 
+    </center></h1> 
+  </div> 
+  <form action="content 2.html" method="POST"> 
+   <div class="cc"> 
+    <div class="ll"> 
+     <h2 align="center">First Name:<input type="text" name="fname" size="20" placeholder="Enter your first name"></h2> 
+     <h2 align="center">Last Name:<input type="text" name="lname" size="20" placeholder="Enter your last name"></h2> 
+     <h2 align="center">User Name:<input type="text" name="uname" size="20" placeholder="Enter your user name"></h2> 
+     <h2 align="center">Password:<input type="password" name="pass" size="20" placeholder="Enter strong password"></h2> 
+     <h2 align="center">Email:<input type="mail" name="mail" size="20" placeholder="abcd5005@gmail.com"></h2> 
+     <h2 align="center">Gender:<input type="radio" name="gender" value="Male">Male <input type="radio" name="Gender" value="Female">Female</h2> 
+     <h1 align="center"><input id="button" type="submit" name="Register" value="login" size="10"> </h1> 
+    </div> 
+   </div> 
+   <h1> 
+    <center> 
+     <div id="affraid"> 
+      <i><font color="white" size="50px">"Dont affraid Come forward"</font></i> 
+     </div> 
+    </center></h1> 
+  </form> 
+  <br> 
+  <div class="oo"> 
+   <marquee> 
+    <h5><em> 
+      <center> 
+       <font color="white">Anyone who is aware that a crime has been committed can report it.<br> It is not essential for you to have been personally affected by the crime.<br> You can report a crime even if you do not know who committed it.<br> You can report a crime at any police station or to the cantonal prosecution service, either verbally or in writing.</font> 
+      </center></em></h5> 
+   </marquee> 
+  </div> 
+  <center> 
+   <a href="Crimeportal.html"> 
+    <div id="link"> 
+     <h2>Back</h2> 
+    </div></a> 
+  </center> 
+ </body>
+</html>
+
+
